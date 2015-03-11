@@ -16,3 +16,27 @@
 
 ## Data source
 - Returns ONE value
+
+# Core Data
+
+## Attribute naming
+
+When crafting data models, use generic wording for ID properties.
+
+Use `remoteID` and `localID` when you are in need of syncing.
+
+**For example:**
+
+```objc
+Note *note;
+note.localID = 12; // local
+note.remoteID = 10; // from backend
+```
+
+**Not:**
+
+```objc```
+Note *note;
+note.noteID = 1;
+```
+
