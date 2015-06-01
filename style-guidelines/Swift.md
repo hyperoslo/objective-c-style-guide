@@ -111,7 +111,7 @@ If you need to expose a Swift type for use within Objective-C you can provide a 
 ### File names for extensions
 If you need to add separate file for class extension, add `Extension` suffix in addition to the class name.
 
-**Preferred:** `UIColorExtension`, `NSDateExtension`.
+**Preferred:** `UIColorExtension`, `NSDateExtension`
 
 **Not Preferred:** `UIColor+CustomColors`, `NSDate+TimeAgo`
 
