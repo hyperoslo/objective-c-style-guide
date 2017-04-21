@@ -7,6 +7,7 @@ Our overarching goals are conciseness, readability, and simplicity.
 
 * [Naming](#naming)
   * [Class Prefixes](#class-prefixes)
+  * [File names for extensions](#file-names-for-extensions)
 * [Spacing and Indentation](#spacing-and-indentation)
 * [Classes and Structs](#classes-and-structs)
   * [Use of Self](#use-of-self)
@@ -106,6 +107,14 @@ If you need to expose a Swift type for use within Objective-C you can provide a 
    ...
 }
 ```
+
+
+### File names for extensions
+If you need to add separate file for class extension, add `Extension` suffix in addition to the class name.
+
+**Preferred:** `UIColorExtension`, `NSDateExtension`
+
+**Not Preferred:** `UIColor+CustomColors`, `NSDate+TimeAgo`
 
 
 ## Spacing and Indentation
